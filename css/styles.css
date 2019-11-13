@@ -1,14 +1,34 @@
 body {
     color: purple;
-    background-color:lightgray;
+    background-color: lightgray;
     font-family: fantasy;
 
 }
 
-.black-span{ 
-color:black;
+.black-span {
+    color: black;
 }
- 
+
+
+   
+
+header nav {
+    display: flex; 
+/*    flex-direction: column;*/
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    flex: 1;
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 0px 0px 10px;
+}
 .centered {
     color: purple;
 
@@ -17,15 +37,17 @@ color:black;
     margin: 0 auto 0 auto;
     width: 80%;
 }
+
 header nav a {
     text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: purple;
 }
 
-.topheading{
+.topheading {
     color: black;
 }
 
